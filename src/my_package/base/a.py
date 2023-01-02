@@ -15,3 +15,10 @@ class TestClassA:
         - name: 이름
         """
         print(f"Hello, {name}!")
+
+    def test_method_2(self, number) :
+        """
+        테스트 메서드 2
+        - number: 번호
+        """
+        print(f"Hello, {number}!")
