@@ -15,3 +15,10 @@ class TestClassB:
         - age: 나이
         """
         print(f"I'm {age} years old.!")
+
+    def test_method_3(self, number) :
+        """
+        테스트 메서드 3
+        - number: 번호
+        """
+        print(f"Hello, {number}!")
